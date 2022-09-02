@@ -1,0 +1,35 @@
+.header-container {
+  background-color: #555;
+  color: #d63384;
+  margin-bottom: 30px;
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+}
+
+.header-title {
+text-transform: uppercase;  
+letter-spacing: 1.5px;
+}
+
+.header-menu{
+  display: flex;
+}
+
+.header-menu Button {
+  background-color: #d63384;
+  color: #f5f5f5;
+  padding: 5px 10px;
+  margin: 5px 10px;
+  border-radius: 5px;
+  border-color: #d63384;
+  justify-content: space-around;
+
+}
+.header-menu Button:hover {
+  transform: scale(1.04);
+  background-color: #aedd40;
+  border-color: #aedd40;
+}

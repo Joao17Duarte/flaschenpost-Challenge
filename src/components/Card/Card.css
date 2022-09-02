@@ -1,0 +1,43 @@
+.card-container {
+  display: flex;
+  background-color: snow;
+  border: 1px solid #D8E1E9 ;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  transition: transform 0.25s ease-out;
+  justify-content: center;
+  width: 10rem;
+}
+
+.card-column {
+  flex-direction: column;
+}
+.card-row {
+  flex-direction: row;
+}
+
+.card-row img {
+  width: 30%;
+  height: max-content;
+}
+
+.card-container:hover {
+  transform: scale(1.02);
+}
+.card-details {
+  text-align: left;
+  margin-left: 25px;
+}
+
+.card-details div {
+  margin: 10px 0;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  width: 30%;
+}
